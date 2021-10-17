@@ -1,0 +1,324 @@
+@media screen and (max-width:768px){
+    html{
+        font-size: 15px;
+    }
+     .menu{
+        display: block;
+    }
+     .logobar{
+        width: 100%;
+    }
+    #header .head{
+        flex-direction: column;
+    }
+    #header nav{
+        display: none;
+        z-index: 100;
+    }
+    #header ul{
+        flex-direction: column;
+        background-color: rgb(54, 54, 54);
+    }
+    #header ul li a::after{
+        content: none;
+    }
+    .container{
+        width: 95%;
+    }
+    .content .card .stars img{
+        width: 20%;
+        height: auto;
+    }
+    .content .card {
+        width: 32%;
+    }
+    .sample p{
+        font-size: 1rem;
+    }
+    
+    .contact{
+      padding: 2rem 0rem;
+    }
+    footer .col .heading {
+        font-size: 1.1rem !important;
+    }
+    footer .col b {
+        font-size: 1.5rem !important;
+    }
+    footer .right ul{
+        padding-top: 0rem;
+        
+    }
+    .tablePrice .colPrice{
+        flex-direction: column;
+    }
+    .tablePrice .colPrice .imageLeft, .tablePrice .colPrice .rightContent{
+        width: 100%;
+    }
+    .rightContent .first{
+        padding-top: .4rem;
+    }
+    .social a{
+        width: 2rem;
+        height: 2rem;
+        padding: .5rem;
+    }
+    .contents .information{
+        width: 90%;
+    }
+    
+    section.order{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .order .form{
+        width: 100%;
+    }
+    .order .form *{
+        padding: 1rem 0;
+    }
+    .order .prices{
+        width: 90%;
+    }
+    .order .infoShip *{
+        padding: 0 ;
+    }
+    
+.infoShip{
+    background-color: rgba(187, 187, 187, 0.333);
+    padding: 1rem !important;
+    border-radius: 10px;
+}
+.infoShip .flex{
+    justify-content: start;
+}
+.infoShip p{
+    padding: .5rem 0 !important;
+}
+.infoShip .left{
+    padding-right: 1rem !important;
+    color: rgb(121, 121, 121);
+}
+.infoShip .borderGray{
+    
+    border-bottom: 1px solid rgb(121, 121, 121);
+    border-top: 1px solid rgb(121, 121, 121);
+}
+.infoShip .right{
+    padding-left: 1rem !important;
+}
+.contents .information h1{
+    font-size: 2rem;
+}
+
+.goods h3{
+    font-size: 1rem;
+}
+.main .leftSide {
+    width: 40%;
+}
+.main .rightSide {
+    width: 55%;
+}
+}
+
+
+
+
+@media screen and (max-width:501px){
+    html{
+        font-size: 13px;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .homeBack .info{
+        margin: 0 auto;
+    }
+    .homeBack h1, .homeBack p{
+        text-align: center;
+    }
+    .homeBack .background{
+        display: none;
+    }
+     .homeBack .buttonDiv{
+         text-align: center;
+    }
+    .rightbar{
+        display: none;
+    }
+    .container{
+        width: 95%;
+    }
+    .itemsNews{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .itemsNews .itemRow{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .itemsNews .itemRow p, .itemsNews .itemRow a{
+        padding: 1rem 0 !important;
+    }
+    .content .card{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .content .stars{
+        width: 40%;
+    }
+    .content .card .img{
+        height: 20rem;
+    }
+    .content .card .img img{
+        object-fit: cover;
+    }
+    footer .left{
+        width: 95%;
+    }
+    .gender{
+        flex-direction: column;
+    }
+    .gender a{
+        width: 100%;
+    }
+    .lorem .contain{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lorem .contain .col{
+        width: 100%;
+    }
+    .lorem .contain .fashion{
+        padding-top: 1rem;
+    }
+    .container .pics{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pics .row{
+        width: 100%;
+    }
+    .row.a{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 15rem;
+        padding-bottom: 1rem;
+
+    }
+    .row.b .col{
+        height:100% ;
+    }
+    .row.b{
+        height: 20rem;
+    }
+    .row.a .col{
+        width: 49%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .arrival.trending .tittle{
+        flex-direction: column;
+        align-items: center;
+    }
+    .arrival ul li{
+        padding: .2rem .5rem;
+    }
+    .gender .woman{
+        background-position: center;
+    }
+}
+
+@media screen and (max-width:600px){
+    .aboutInfo{
+        width: 70% !important;
+    }
+    
+    .container .tittle{
+        flex-direction: column;
+    }
+    .container .tittle h2{
+        text-align: center;
+    }
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    footer .right{
+        width: 50%;
+        padding-top: 1rem;
+        align-self: center;
+        justify-self: center;
+    }
+    .right .social{
+        width: 70%;
+    } 
+    .main .leftSide .prevNext{
+        width: 60%;
+    }
+    .main .rest h2+p {
+        font-size: .9rem;
+        color: gray;
+        padding: 1rem 0rem;
+    }
+    .main .leftSide .card{
+        max-height: 35rem;
+    }
+    .col.fashion a{
+        position: static;
+    }   
+    .main .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main .container .rightSide, .main .container .leftSide{
+        width: 100%;
+    }
+    .destkop-table{
+        display: none !important;
+    }
+    
+.sectionTable .buttons button{
+    padding: 1rem 1rem !important;
+    border-radius: 10px;
+
+}
+div.mobileTable{
+    display: flex !important;
+}
+    .mobileTable{
+        display: block !important;
+    }
+ .goods h3{
+    font-size: 1rem;
+}
+.goods p, .goods a{
+    font-size: .8rem;
+}
+}
+
+
+
+@media screen and (max-width:1024px){
+    footer .col .heading{
+        font-size: 1.3rem;
+    }
+    div.col.fashion{
+        padding: 0 2rem;
+    }
+    .container{
+        width: 91%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    
+
+
